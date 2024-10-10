@@ -1,0 +1,11 @@
+|i_want_to_kys
+s <= XNO.DB_MAX_OUTPUT_PORT_TYPE
+a => die.IN0
+a => NOTFUN.IN0
+b => die.IN1
+b => NOTFUN.IN1
+c => XNO.IN1
+c => FUN.IN1
+Cout <= OR1.DB_MAX_OUTPUT_PORT_TYPE
+
+

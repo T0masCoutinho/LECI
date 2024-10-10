@@ -1,0 +1,41 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity TimerM is
+    generic(N: positive := 8);
+    port(clk      : in  std_logic;
+          start    : in  std_logic;
+          timerOut : out std_logic;
+          incrementUp: in std_logic;
+          incrementDown: in std_logic);
+end TimerM;
+
+architecture Behavioral of TimerM is
+signal s_count : integer := 0;
+begin
+        process(clk)
+        begin
+            if (rising_edge(clk)) then
+                    if (s_count = 0) then
+                      if ( incrementUp = '1') then
+                         timerOut <= '0';
+                         s_count <= s_count + 1;
+                      elsif( incrementDown = '1') then
+                           timerOut <= '0';
+                           s_count <= s_count - 1;
+                        else
+                            timerOut <= '0';
+                        end if;
+                    else 
+                        if (s_count = (0)) then
+                            timerOut <= '1';
+                            s_count <= 0;
+                        else
+                            timerOut <= '0';
+                            s_count <= s_count - 1;
+                        end if;
+                    end if;
+					end if;
+        end process;
+end Behavioral;

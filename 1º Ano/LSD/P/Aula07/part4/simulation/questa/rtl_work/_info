@@ -1,0 +1,87 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/simulation/questa
+T_opt
+!s110 1714220844
+VL[0G^d`o>I8<lR=Q^5^8o2
+04 5 10 work cntup behavioral 1
+=1-000ae431a4f1-662cef2b-41f4b-42f5
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ecntup
+Z1 w1714220802
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/CntUp.vhd
+Z6 F/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/CntUp.vhd
+l0
+L5 1
+V_?Rd=ldL:K0F]0]@9>>O?1
+!s100 hg_MhcLKcjIMWoWQI7@f[0
+Z7 OL;C;2021.2;73
+31
+Z8 !s110 1714220824
+!i10b 1
+Z9 !s108 1714220824.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/CntUp.vhd|
+Z11 !s107 /home/tomtom/Documents/UNI/LSD/P/Aula07/part4/CntUp.vhd|
+!i113 0
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 5 cntup 0 22 _?Rd=ldL:K0F]0]@9>>O?1
+!i122 0
+l15
+L12 17
+V8K4dK@25DkV1SDSNAS?[R2
+!s100 R5FnZ0TKaQXZ5;5W7moAe2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Edebugdemo
+w1714220191
+R3
+R4
+!i122 1
+R0
+8/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/DebugDemo.vhd
+F/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/DebugDemo.vhd
+l0
+L4 1
+V4XoF4FEIUdLn3[gINcT]^0
+!s100 lTc?[d3PSlkaNn2Jd;]6U0
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|/home/tomtom/Documents/UNI/LSD/P/Aula07/part4/DebugDemo.vhd|
+!s107 /home/tomtom/Documents/UNI/LSD/P/Aula07/part4/DebugDemo.vhd|
+!i113 0
+R12
+R13

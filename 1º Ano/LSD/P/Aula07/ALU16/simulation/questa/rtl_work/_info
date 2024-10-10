@@ -1,0 +1,65 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tomtom/Documents/UNI/LSD/P/Aula07/ALU16/simulation/questa
+T_opt
+!s110 1713523976
+V<3>aJR5zN4_8cL<]iTEeY2
+04 5 10 work alu16 behavioral 1
+=1-000ae431a4f1-66224d08-b2078-59d5
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ealu16
+Z1 w1713523766
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/tomtom/Documents/UNI/LSD/P/Aula07/ALU16/ALU16.vhd
+Z6 F/home/tomtom/Documents/UNI/LSD/P/Aula07/ALU16/ALU16.vhd
+l0
+L4 1
+Vkf3hCMP^?zUhVCWB[FKo_3
+!s100 G383I:czZe@fY???Elk4`3
+Z7 OL;C;2021.2;73
+31
+Z8 !s110 1713523839
+!i10b 1
+Z9 !s108 1713523839.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/tomtom/Documents/UNI/LSD/P/Aula07/ALU16/ALU16.vhd|
+Z11 !s107 /home/tomtom/Documents/UNI/LSD/P/Aula07/ALU16/ALU16.vhd|
+!i113 0
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 5 alu16 0 22 kf3hCMP^?zUhVCWB[FKo_3
+!i122 0
+l13
+L11 20
+V00`B_b8hMDQFCMGDmN;j@0
+!s100 KVHKj11egm@>=D]QeH=2k2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13

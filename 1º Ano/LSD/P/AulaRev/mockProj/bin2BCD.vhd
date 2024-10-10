@@ -1,0 +1,18 @@
+library ieee
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity bin2BCD is
+port(bin : in std_logic_vector(3 downto 0);
+	  bin2D, bin2U : out std_logic_vector(3 downto 0));
+	  
+architecture Behavioral of bin2BCD is
+signal s_bin unsigned(3 downto 0)
+process
+begin
+	
+	bin2D <= "0001" when bin = "1010" else "0001" when bin = "1011" else "0000";
+	bin2U <= "0000" when bimn = "1010" else "0001" when bin = "1011" else bin;
+end process;
+end Behavioral;
+	

@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity DrinksMachine is
+    port(reset    : in  std_logic;
+          clk        : in  std_logic;
+          V       : in  std_logic;
+          C        : in  std_logic;
+          Drink    : out std_logic);
+end DrinksMachine;
+
+architecture shell of DrinksMachine is
+    begin
+        drinks : work.DrinksFSM(behavioral)
+                    port map( clk => CLOCK_50,
+                                reset => KEY[0],
+                                V => SW[0],
+                                C => SW[1],
+                                Drink => LEDG[0]);
+end shell;

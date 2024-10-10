@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity TempCtrl is
+	port( program : in std_logic_vector(7 downto 0);
+			temperature : out std_logic_vector(3 downto 0));
+			
+architecture Behavioral of TempCtrl is
+begin 
+	process(program)
+		case program
+			when "00000001" => temperature is <= "0000"; --Default = 200 grau
+			when "00000010" => temperature is <= "0001"; --Rissois = 180 grau
+			when "00000011" => temperature is <= "0000"; --Batatas = 200 grau
+			when "00000100" => temperature is <= "0010"; --Filetes = 170 grau
+			when "00000101" => temperature is <= "0010"; --Hamburger = 170 grau
+			when "00000110" => temperature is <= "0010"; --Custom = user escolhe
+			when others     => temperature is <= "XXXX"; --Don't care = Nao da nada
+		end case;
+	end process;
+end Behavioral;
