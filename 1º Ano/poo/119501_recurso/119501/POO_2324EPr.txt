@@ -1,0 +1,7 @@
+
+Exercício 1) ----------------------------------
+
+PercursoCultura com Sabores, 120/pessoa, emAUTOCARRO: [Local [name=Museu do Azulejo]SitioCultural [placeType=MUSEUAARTE, gamaPrecos=null], Local [name=Sol Nascente]Restaurante [type=ORIENTAL], Local [name=Museu de Arte Moderna]SitioCultural [placeType=MUSEUAARTE, gamaPrecos=null], Local [name=Sé]SitioCultural [placeType=RELIGIOSO, gamaPrecos=null], Local [name=Green Taste]Restaurante [type=VEGETARIANA]]
+PercursoEncantos da Serra, 100/pessoa, emAUTOCARRO: [Local [name=Convento de Tomar]SitioCultural [placeType=RELIGIOSO, gamaPrecos=null], Local [name=Petiscos da Serra]Restaurante [type=MEDITERRANICA], Local [name=Museu Fóssil Mira de Aire]SitioCultural [placeType=MUSEUCIENCIA, gamaPrecos=null], Local [name=Convento de Tomar]SitioCultural [placeType=RELIGIOSO, gamaPrecos=null]]
+PercursoAnoitecer 4x4, 150/pessoa, emTODOTERRENO: [Local [name=Cromeleque dos Almendres]SitioCultural [placeType=HISTORICO, gamaPrecos=null], Local [name=Anta da Cerqueira]SitioCultural [placeType=HISTORICO, gamaPrecos=null], Local [name=Dolmen da Aliviada]SitioCultural [placeType=HISTORICO, gamaPrecos=null], Local [name=Bom Prato]Restaurante [type=MEDITERRANICA]]
+

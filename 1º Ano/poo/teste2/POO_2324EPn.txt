@@ -1,0 +1,127 @@
+
+Alínea 1) ----------------------------------
+
+### There is already an event occurring at this place and time!
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+** No more tickets available for event 1004
+** No more tickets available for event 1005
+** No more tickets available for event 1006
+** No more tickets available for event 1007
+** No more tickets available for event 1008
+** No more tickets available for event 1009
+** No more tickets available for event 1010
+** No more tickets available for event 1011
+** No more tickets available for event 1000
+** No more tickets available for event 1001
+** No more tickets available for event 1002
+** No more tickets available for event 1003
+EventOccurrence{event=Event [name=Thunderous, duration=90minutes]Concert by Neon Pulse Tour, place=Place [place_name=Riverside Theatre, place_capacity=100], date=Fri Jun 14 18:00:30 BST 2024, availableTickets=100}
+EventOccurrence{event=Event [name=Esperanza Spalding, duration=75minutes]Concert by A Tribute to Nina Simone, place=Place [place_name=City Lights Cinema, place_capacity=150], date=Mon Jun 10 20:00:15 BST 2024, availableTickets=100}
+EventOccurrence{event=null[150] , theatre play by Oscar Wilde, performed by Grand Theatre Company, place=Place [place_name=Central Park Bandshell, place_capacity=200], date=Sat Jun 22 19:00:30 BST 2024, availableTickets=100}
+EventOccurrence{event=null[90] , theatre play by Maria Hernandez, performed by Riverbank Community Players, place=Place [place_name=The Black Box, place_capacity=70], date=Wed Jun 19 21:00:00 BST 2024, availableTickets=100}
+EventOccurrence{event=Cinema [diretor=John Huston, year=1941, actor=[Humphrey Bogart, Mary Astor, Peter Lorre]], place=Place [place_name=Riverside Theatre, place_capacity=100], date=Thu Jun 20 18:00:45 BST 2024, availableTickets=100}
+EventOccurrence{event=Cinema [diretor=David Choi, year=2023, actor=[Elena Alvarez, Daniel Park, Thomas Wright]], place=Place [place_name=City Lights Cinema, place_capacity=150], date=Tue Jun 11 22:00:00 BST 2024, availableTickets=100}
+EventOccurrence{event=Event [name=Thunderous, duration=90minutes]Concert by Neon Pulse Tour, place=Place [place_name=Central Park Bandshell, place_capacity=200], date=Sun Jun 23 19:00:30 BST 2024, availableTickets=100}
+EventOccurrence{event=Event [name=Esperanza Spalding, duration=75minutes]Concert by A Tribute to Nina Simone, place=Place [place_name=The Black Box, place_capacity=70], date=Fri Jun 28 18:00:30 BST 2024, availableTickets=100}
+EventOccurrence{event=null[150] , theatre play by Oscar Wilde, performed by Grand Theatre Company, place=Place [place_name=Riverside Theatre, place_capacity=100], date=Wed Jun 12 20:00:45 BST 2024, availableTickets=100}
+EventOccurrence{event=null[90] , theatre play by Maria Hernandez, performed by Riverbank Community Players, place=Place [place_name=City Lights Cinema, place_capacity=150], date=Mon Jun 17 19:00:00 BST 2024, availableTickets=100}
+EventOccurrence{event=Cinema [diretor=John Huston, year=1941, actor=[Humphrey Bogart, Mary Astor, Peter Lorre]], place=Place [place_name=Central Park Bandshell, place_capacity=200], date=Tue Jun 25 21:00:15 BST 2024, availableTickets=100}
+EventOccurrence{event=Cinema [diretor=David Choi, year=2023, actor=[Elena Alvarez, Daniel Park, Thomas Wright]], place=Place [place_name=The Black Box, place_capacity=70], date=Sat Jun 29 18:00:00 BST 2024, availableTickets=100}
+
+
+Alínea 2) ----------------------------------
+
+
+Finished reading file.
+
+
+** First 10 available events, sorted by date:
+
+** Number of tickets sold by event type:
