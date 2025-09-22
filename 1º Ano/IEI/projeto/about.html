@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca do Projeto</title>
+    <link rel="stylesheet" href="stles.css">
+    <link rel="icon" href="ua.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"> <img src="images/brain.jpg" alt="UA" width="200" height="80"></a>
+            <div class="navbar__toggle" id="mobilemenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links"> Página Inicial </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links"> Acerca De </a>
+                </li>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Lista de Conteúdos</button>
+                    <div class="dropdown-content">
+                      <a href="desenvolvimento.html">Desenvolvimento dos
+                        Microprocessadores</a>
+                      <a href="impacto.html">Impacto na Indústria</a>
+                      <a href="efeitos.html">Efeitos Culturais</a>
+                      <a href="futuro.html">Tendências Futuras</a>
+                    
+                    
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <div class="about_content">
+        <h1>ACERCA DESTE PROJETO</h1>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h2>SOBRE OS AUTORES</h2>
+        <p>
+            Trabalho realizado no &acirc;mbito da cadeira de Introdu&ccedil;&atilde;o &agrave; Engenharia Inform&aacute;tica, da Licenciatura em Engenharia de Computadores e Inform&aacute;tica.<br>
+            C&oacute;digo fonte dispon&iacute;vel no <a href="https://github.com/detiuaveiro/infor2023-ap-g-infor2023-ap-g01">Repositório do GitHub</a><br>
+            Realizado pelos autores (e respetivas contribui&ccedil;&otilde;es):<br>
+            <a target="_blank" href="https://github.com/T0masCoutinho">Tomás Coutinho</a>&emsp;&bullet;&emsp;(95%)<br>
+            <a target="_blank" href="https://github.com/escorcio05">Guilherme Escorcio</a>&emsp;&bullet;&emsp;(5%)<br>
+        </p>
+        <p style="font-size: 135%; color: white;">
+            2023-2024<br>
+        </p>
+        <p style="font-size: 140%">
+            <a target="_blank" href="https://www.ua.pt">Universidade de Aveiro</a><br>
+            Departamento de Electr&oacute;nica, Telecomunica&ccedil;&otilde;es e Inform&aacute;tica<br>
+        </p>
+        <br> 
+        <div class="row">
+            <div class="columnleft" style="text-align: center">
+                <div id="about-map"></div>
+                <!-- JavaScript for map design and other functionalities -->
+                <script src="js/map.js"></script>
+            </div>
+            <span style="color:blue" id="coordinates"></span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h2>SOBRE O SITE</h2>
+        <p>
+            <p>No desenvolvimento deste projeto foi usada as bibliotecas jQuery, HighCharts e Leaflet para desenvolvimento do grafico presente em <a href="desenvolvimento.html"> Desenvolvimento de Microprocessadores</a> e o mapa no Acerca De.</p>
+            <p>Em grande parte do projeto foram usados <i>stylesheets</i> personalizadas para criar uma página mais dinâmica e agradável ao olho.</p>
+        </p>
+        <p>
+        <br>    
+        </p>
+        <br>
+        <hr>
+        <br>
+        <h2>BIBLIOGRAFIA</h2>
+        <p>
+        <ul>
+            <li>F. Arruda, «History of Processors», <a href="https://www.techpowerup.com/cpu-specs/"><i>tecmundo</i></a>, 2011.</li>
+            <li>TechPowerUp, «CPU size», <a href="https://www.techpowerup.com/cpu-specs/"><i>techpowerup</i></a>, [Edição mais recente], 2024.</li>
+            <li>Diogo Correia, «Lei de Moore & Dennard Scalling»,<a href="https://resumos.leic.pt/iac/introducao/#lei-de-moore"><i>Resumos LEIC-A</i></a></li>
+            <li>Rafael Zambelli, «Internet of Things»,<a href="https://blog-pt.checklistfacil.com/internet-das-coisas-iot/#:~:text=Internet%20das%20Coisas%3A%20impacto%20no,%2C%20monitoramento%2C%20conforto%20e%20segurança."><i>checklistfácil</i></a></li>
+            <li>M. Frąckiewicz, «AI Impact», <a href="https://ts2.pl/pt/o-impacto-dos-processadores-de-ia-no-design-e-nas-operacoes-do-data-center/#gsc.tab=0"><i>ts2</i></a>, 2023.</li>
+            <p>Credita-se também ao aluno de 3ª matrícula António Almeida por ter contríbuido para o projeto com a sua opinião na estética presente e ao aluno de 2ª matrícula Tiago Garcia por ter fornecido a ideia de desenvolver um mapa.</p>
+        </ul>
+        </p>
+        <br>
+        <br>
+        <img src="images/ua.jpg" alt="UA" width="300" height="100">
+    </div>
+    
+
+
+
+</body>
+</html>
